@@ -1,0 +1,27 @@
+body{
+font-family: Verdana;
+background-image: url('./images/pic.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.pr1{background-color: orange;}
+.pr2{background-color: cyan;}
+.pr3{background-color: red;}
+.flex-container{
+  max-width: : 900px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+.product{
+  width: 31%;
+}
+@media (max-width: 600px) {
+  .flex-container{
+  display: block;
+}
+.product{
+  width: 100%;
+}
+}
